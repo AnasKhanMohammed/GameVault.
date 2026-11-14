@@ -1,0 +1,86 @@
+GIT COMMANDS USED IN THE GAMEVAULT ASSIGNMENT
+================================================
+
+1. git init
+   Initializes a new Git repository in the project directory.
+
+2. git branch -M main
+   Renames the current branch to main.
+
+3. git add index.html about.html
+   Adds the HTML files to the staging area.
+
+4. git commit -m "Create initial GameVault pages"
+   Saves the initial project files as a commit.
+
+5. git add index.html
+   Stages the updated homepage file.
+
+6. git commit -m "Expand GameVault home page"
+   Records the changes made to the homepage.
+
+7. git branch feature
+   Creates a separate branch named feature.
+
+8. git switch feature
+   Moves the working environment to the feature branch.
+
+9. git add about.html
+   Stages the updated About page.
+
+10. git commit -m "Add game discovery details"
+    Saves the feature branch changes.
+
+11. git switch main
+    Switches back to the main branch.
+
+12. git merge --no-ff feature -m "Merge feature branch into main"
+    Merges feature into main and creates a separate merge commit.
+
+13. git log --oneline --graph --decorate --all
+    Displays commit history, branches and merge relationships.
+
+14. git status
+    Shows the current repository state and pending changes.
+
+15. git add .gitignore
+    Stages the Git ignore configuration file.
+
+16. git commit -m "Add rules for ignored files"
+    Saves the ignore rules in the repository history.
+
+17. git check-ignore -v debug.log temp/sample.txt
+    Identifies which ignore rules exclude the specified files.
+
+18. git add temporary.txt
+    Stages the temporary file used for the revert demonstration.
+
+19. git commit -m "Add temporary file for revert demonstration"
+    Records the temporary file as an additional commit.
+
+20. git revert --no-edit HEAD
+    Reverses the latest commit while preserving the original history.
+
+21. git log --oneline -5
+    Displays the five most recent commits.
+
+22. git remote add origin https://github.com/AnasKhanMohammed/GameVault.
+    Connects the local repository to the GitHub remote repository.
+
+23. git remote -v
+    Displays the configured remote repository URLs.
+
+24. git push -u origin main
+    Publishes the main branch and configures its upstream connection.
+
+25. git push -u origin feature
+    Publishes the feature branch and configures its upstream connection.
+
+26. git add git_commands.txt
+    Stages the Git command documentation file.
+
+27. git commit -m "Add Git command documentation"
+    Records the command reference file in the repository.
+
+28. git push
+    Uploads the latest local commit to the configured remote branch.
